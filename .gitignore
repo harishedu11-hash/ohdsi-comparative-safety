@@ -1,0 +1,16 @@
+# Persistent SQLite database & DuckDB caches
+*.sqlite
+*.sqlite3
+.duckdb/
+cmData/
+
+# R environment & temp files
+.Rhistory
+.RData
+.Rproj.user/
+/tmp/
+
+# Keep study outputs and code
+!figures/
+!diagnostics/
+!renv.lock
